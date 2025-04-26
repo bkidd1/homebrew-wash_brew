@@ -1,8 +1,8 @@
 class Wash < Formula
     desc "CLI tool for managing your washing machine"
     homepage "https://github.com/bkidd1/wash-cli"
-    url "https://github.com/bkidd1/wash-cli/archive/refs/tags/v1.0.0.tar.gz"
-    sha256 "70fbd34166df09e8ee4f74964d19807014344607bc2de6f592d35b7a1661045a"
+    url "https://github.com/bkidd1/wash-cli/archive/refs/tags/v1.0.1.tar.gz"
+    sha256 "e56dc64fcbc9e415956454b703a02462321c1cf7efa205796a7b1a6fe31fb2d1"
     license "MIT"
   
     depends_on "go" => :build
