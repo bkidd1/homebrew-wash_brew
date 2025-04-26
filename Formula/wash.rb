@@ -1,8 +1,8 @@
 class Wash < Formula
   desc "A development assistant that helps track errors, decisions, and project state"
   homepage "https://github.com/bkidd1/wash-cli"
-  url "https://github.com/bkidd1/wash-cli/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "b8171b933b7ef80d38006bb62b12669456b287780a7c0bd3e044ee4bb72b6301"
+  url "https://github.com/bkidd1/wash-cli/archive/refs/tags/v1.0.2.tar.gz"
+  sha256 "add467fbc5a5f3f9e21154747d33ac68e29d2b2c9f736b0e349eed20adb7d6e2"
   license "MIT"
 
   depends_on "go" => :build
@@ -12,6 +12,6 @@ class Wash < Formula
   end
 
   test do
-    assert_match "v0.1.1", shell_output("#{bin}/wash version")
+    assert_match "v1.0.2", shell_output("#{bin}/wash version")
   end
 end
