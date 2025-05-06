@@ -1,25 +1,25 @@
 class Wash < Formula
   desc "A CLI tool for analyzing and cleaning code"
   homepage "https://github.com/bkidd1/wash-cli"
-  version "1.0.9"
+  version "1.1.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/bkidd1/wash-cli/releases/download/v1.0.9/wash-cli_Darwin_arm64.tar.gz"
-      sha256 "1bf34cfeae8ba2c897df8b24321a004a7775f037b9e5b7c060aeaecdd19810fb"
+      url "https://github.com/bkidd1/wash-cli/releases/download/v1.1.0/wash-cli_Darwin_arm64.tar.gz"
+      sha256 "28385d233128b2948b9c5949fcb8078abab058e062f7326cfaf4a65b1cb4e585"
     else
-      url "https://github.com/bkidd1/wash-cli/releases/download/v1.0.9/wash-cli_Darwin_x86_64.tar.gz"
-      sha256 "c26308a892a4a6b5459a4550c2266c4c8364031e7e0f3e6a84c36c7969821e68"
+      url "https://github.com/bkidd1/wash-cli/releases/download/v1.1.0/wash-cli_Darwin_x86_64.tar.gz"
+      sha256 "58f253243ba3be61793fdc3c5459d4c582797319372bcd2963b94efaaecc7f1c"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/bkidd1/wash-cli/releases/download/v1.0.9/wash-cli_Linux_arm64.tar.gz"
-      sha256 "74b424ed8a4e143dc835e34a98ee33ba3a440dd90dc9b3fb07113a51bf5dd62e"
+      url "https://github.com/bkidd1/wash-cli/releases/download/v1.1.0/wash-cli_Linux_arm64.tar.gz"
+      sha256 "b9585133eb3b70aeb8ed2f4056cb75a43f47ee2bd64cb303e5964f30776dac6e"
     else
-      url "https://github.com/bkidd1/wash-cli/releases/download/v1.0.9/wash-cli_Linux_x86_64.tar.gz"
-      sha256 "6cb469ec8847a3ea60159f1dfca438234a4cd57108f46a006bf0edfb09d23c2f"
+      url "https://github.com/bkidd1/wash-cli/releases/download/v1.1.0/wash-cli_Linux_x86_64.tar.gz"
+      sha256 "a8f73b871222c7f72443cb341088d49c5539defe71f9585a9a14d39193f46182"
     end
   end
 
