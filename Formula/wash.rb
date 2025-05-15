@@ -6,7 +6,7 @@ class Wash < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/bkidd1/wash-cli/releases/download/v1.1.3/wash-cli_Darwin_arm64.tar.gz"
-      sha256 "8c845062b8be78337448941fdaa3e09eedcbd07dd666a36dc2bcab486ee3c4c9"
+      sha256 "d805085097f1921add2d9106ca998d0a58f38530651280224a059a8fd0319c5d"
     else
       url "https://github.com/bkidd1/wash-cli/releases/download/v1.1.3/wash-cli_Darwin_x86_64.tar.gz"
       sha256 "a44a25c4ceebc22b5cc8520c697c384ef15ed1381ad81bab9381446e90e84429"
